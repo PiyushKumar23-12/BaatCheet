@@ -7,7 +7,7 @@ const server=http.createServer(app);
 
 const io=new Server(server,{
     cors:{
-        origin:["https://baatcheet-frontend-9oom.onrender.com/"]
+        origin:["https://baatcheet-frontend-9oom.onrender.com"]
     }
 })
 
