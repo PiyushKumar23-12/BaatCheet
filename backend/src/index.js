@@ -16,7 +16,7 @@ const __dirname=path.resolve();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin:"https://baatcheet-frontend-9oom.onrender.com/",
+    origin:"https://baatcheet-frontend-9oom.onrender.com",
     credentials:true,
 }))
 
